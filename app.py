@@ -28,11 +28,6 @@ class TodoUpdate(BaseModel):
     priority: Optional[Priority] = Field(None, description="The priority of the todo item")
 
 
-
-
-
-
-
 api = FastAPI()
 
 all_todos = [
