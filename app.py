@@ -36,7 +36,7 @@ all_todos = [
     Todo(todo_id=3, todo_name='sports', todo_description='go the gym', priority=Priority.LOW),
     Todo(todo_id=4, todo_name='study', todo_description='Do the homework', priority=Priority.HIGH),
 ]
- 
+
 
 @api.get('/todos/{todo_id}', response_model=Todo)
 def get_todos(todo_id: int):
